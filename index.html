@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Iulia-Maria Florea">
+		<meta name="description" content="pagină unei organizații studențești,având ca scop de a fi promovată">
+		<meta name="keywords" content="organizație,studenți,comunitate,proiecte,echipă">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Megacommunity</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Lobster&family=Righteous&display=swap" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<style>
+			.font-lobster {font-family: 'Lobster', cursive;}
+			.font-garamond {font-family: 'EB Garamond', serif;}
+			.font-righteous {font-family: 'Righteous', cursive;}
+			.img-carusel {width:100%;
+						  margin:auto;}
+			.albastru-pal { background-color: #29C2D6;}
+			.turcoaz-inchis {background-color:#005F6B;}		
+			.alb {background-color:#F2F2F2;}
+			.c1 {background-color: #596270;}	
+			.c2 {background-color: #6B0D3A;}	
+			.c3 {background-color: #008B8B;}	
+			.c4 {background-color: #C92655;}					
+			.c5 {background-color: #8accc3;}			
+			.c6 {background-color: #917C0F;}
+			.fundal {background-color:#f2fdff;}
+			.galben {background-color:#fbfdec;}
+			.buton {border:0px; ;}
+			.buton:hover {background-color: #02A8B8;}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-md turcoaz-inchis navbar-dark">
+				<a class="navbar-brand" href="#sus">
+					<img src="img/team.png" class="img-fluid" style="max-width:60px">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#meniu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end p-3 font-righteous " id="meniu">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#despre">Despre</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#departamente">Departamente</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#proiecte">Proiecte</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#echipa">Echipă</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>	
+		
+			<header id="sus" class="">
+				<div id="carusel" class="carousel slide" data-ride="carousel">
+					<ul class="carousel-indicators">
+						<li data-target="#carusel" data-slide-to="0" class="active"></li>
+						<li data-target="#carusel" data-slide-to="1"></li>
+						<li data-target="#carusel" data-slide-to="2"></li>
+						<li data-target="#carusel" data-slide-to="3"></li>
+						<li data-target="#carusel" data-slide-to="4"></li>
+					</ul>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/slide0.jpg" class="img-fluid img-carusel" >
+							<div class="carousel-caption">
+								<h2 class="font-righteous">Megacommunity</h2>
+								<p class="font-garamond lead">Organizație studențească</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="img/slide1.jpg" class="img-fluid img-carusel">
+							<div class="carousel-caption">
+								<h2 class="font-righteous">Megacommunity</h2>
+								<p class="font-garamond lead">Organizație studențească</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="img/slide2.jpg" class="img-fluid img-carusel">
+							<div class="carousel-caption">
+								<h2 class="font-righteous">Megacommunity</h2>
+								<p class="font-garamond lead">Organizație studențească</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="img/slide3.jpg" class="img-fluid img-carusel">
+							<div class="carousel-caption">
+								<h2 class="font-righteous">Megacommunity</h2>
+								<p class="font-garamond lead">Organizație studențească</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="img/slide4.jpg" class="img-fluid img-carusel">
+							<div class="carousel-caption">
+								<h2 class="font-righteous">Megacommunity</h2>
+								<p class="font-garamond lead">Organizație studențească</p>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carusel" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						 </a>
+						 <a class="carousel-control-next" href="#carusel" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						 </a>
+					</div>
+				</div>
+			</header>
+			<section id="despre" class="albastru-pal mb-0">
+				<h2 class="text-center pt-5 pb-3 text-light font-garamond font-weight-bold ">Despre organizație</h2>
+				<div class="text-body px-5 pb-5 text-light container">
+					<p>Ca și student poți să ai parte de mult mai multe experiențe decât cele de bază: cursuri, ieșiri cu prietenii sau un posibil loc de muncă. Unul dintre scopurile unei organizații studențești este de a-i ajuta pe studenți să se simtă primiți cu căldură într-o comunitate plină de personae ambițioase cu care pot împărtăși aceleași interese. Megacommunity este o organizaţie studenţească din cadrul Facultăţii de Comunicare din Cluj-Napoca prin intermediul căreia sunt promovate interesele studenților, atât pe plan educațional, cât și social,cultural sau economic.
+					</p>
+					<p>Pentru a reuși să fie atinse obiectivele acestei organizații studențești s-au realizat o serie de proiecte și campanii, cu scopul de o face viața studentului mai interesantă și valoroasă. Pe lângă toate aceste activități care au ca scop să îti ofere ție condițiile necesare de a te dezvolta într-un mediu plăcut ,organizația realizează o serie de proiecte care au ca obiectiv ajutarea persoanelor mai puțin favorizate.
+					</p>
+				</div>
+			</section>
+			<section id="departamente" class="fundal">
+				<h2 class="py-5 text-center font-garamond font-weight-bold">Departamentele organizației</h2>
+				<div class="row ">
+					<div class="col col-lg-2 col-md-6 col-sm-12 col-12 px-3 py-3">
+						<img src="img/extern.png" class="img-fluid mx-auto d-block">
+						<h3 class="text-center p-3 font-garamond">Relații externe</h3>
+						<p> are atribuția de a menține relațiile cu celelalte organizații nonguvernamentale, atât cele studențești cât și cu organizațiile din alt domeniu decât cel educațional</p>
+					</div>
+					<div class="col col-lg-2 col-md-6 col-sm-12 col-12 px-3 py-3">
+						<img src="img/intern.png" class="img-fluid mx-auto d-block">
+						<h3 class="text-center p-3 font-garamond">Relații interne</h3>
+						<p>se ocupă cu organizarea ședințelor, alegerilor, întâlniri cu studenții facultății și menținerea unei bune colaborări între membrii organizației.</p>
+					</div>
+					<div class="col col-lg-2 col-md-6 col-sm-12 col-12 px-3 py-3">
+						<img src="img/uman.png" class="img-fluid mx-auto d-block">
+						<h3 class="text-center p-3 font-garamond">Resurse Umane</h3>
+						<p> se ocupă cu rezolvarea conflictelor, cu motivarea studenților și organizarea activităților de divertisment din cadrul organizației.</p>
+					</div>
+					<div class="col col-lg-2 col-md-6 col-sm-12 col-12 px-3 py-3">
+						<img src="img/design.png" class="img-fluid mx-auto d-block">
+						<h3 class="text-center p-3 font-garamond">Imagine</h3>
+						<p> se ocupă de aspect, de crearea de afișe și videoclipuri, aranjarea paginii, tot ce are legătură cu esteticul. Mai are atribuțiile de managementul paginilor media și menținerea contactului cu presa</p>
+					</div>
+					<div class="col col-lg-2 col-md-6 col-sm-12 col-12 px-3 py-3">
+						<img src="img/fund.png" class="img-fluid mx-auto d-block">
+						<h3 class="text-center p-3 font-garamond">Fundraising</h3>
+						<p>  se ocupă cu stângerea de fonduri pentru organizație, prin crearea de parteneriate și găsirea a diverși sponsori dornici de ajutor.</p>
+					</div>
+					<div class="col col-lg-2 col-md-6 col-sm-12 col-12 px-3 py-3">
+						<img src="img/edu.png" class="img-fluid mx-auto d-block">
+						<h3 class="text-center p-3 font-garamond">Educație</h3>
+						<p>are responsabilitatea de a informa studenții cu privire la drepturile și obligațiile lor; și de a reprezenta interesele studenților menținând o strânsă legătură cu facultatea.</p>
+					</div>
+				</div>	
+			</section>
+			<section id="proiecte">
+				<h2 class="py-5 text-center font-garamond font-weight-bold">Proiectele organizației</h2>
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+						<div class="card mb-5 c1">
+							<div class="card-body text-white">
+								<h4 class="card-title text-center font-garamond">Training week</h4>
+								<p class="card-text">O săptămână dedicată bobocilor în cadrul căreia se vor desfășura o serie de activități interactive și workshop-uri care au ca obiective: managementul timpului pentru a face față unui program încărcat, orientarea în carieră , punerea calităților în evidență, controlarea emoțiilor în sesiune, menținerea motivației pe termen lung.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+						<div class="card mb-5 c2">
+							<div class="card-body text-white">
+								<h4 class="card-title text-center font-garamond">Un Crăciun Magic</h4>
+								<p class="card-text">Fiecare copil are dreptul la a avea parte de un Crăciun magic, indiferent de statutul său social sau financiar. Așa că ajută-ne să le redăm zâmbetul pe buze copiilor neajutorați în perioada sărbătorilor prin oferirea unui cadou deosebit. Micile atenții (jucării, haine, rechizite,dulciuri) care sunt donate vor fi puse în cutii împachetate în spirit de sărbătoare.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+						<div class="card mb-5 c3">
+							<div class="card-body text-white">
+								<h4 class="card-title text-center font-garamond">Edupedu</h4>
+								<p class="card-text">Edupedu este un proiect educațional, adresat studenților , având ca obiectiv atât dezvoltarea profesională, cât și personală, prin diferite workshopuri și traininguri. Studenții care participă vor căpăta o mai bună înțelegere a propriilor drepturi și cum să treacă peste greutățile din viața profesională.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+						<div class="card mb-5 c4">
+							<div class="card-body text-white">
+								<h4 class="card-title text-center font-garamond">Mărțișor în dar</h4>
+								<p class="card-text">Studenții organizației creează mărțișoare inedite din clay pentru a le oferi bărânilor din azil cu scopul de a le face ziua mai veselă, ținându-le de companie, și a le aminti de vremurile frumoase din tinerețe când erau și ei adolescenți. Membrii organizației studențești vor să îi ajute pe bătrâni să uite de momentele grele.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+						<div class="card mb-5 c5">
+							<div class="card-body text-white">
+								<h4 class="card-title text-center font-garamond">Exercițiul 24</h4>
+								<p class="card-text">Exercițiul 24 constă în redactarea unei reviste - în format tradițional,dar și electronic, care are ca public țintă tinerii studenți, punându-i la curent cu noutățile din mediul academic, profesional, cultural și social. Abordează diferite subiecte precum: evenimentele din această perioadă, articole despre ajutare personală, în ce constă viața de student, etc.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+						<div class="card mb-5 c6">
+							<div class="card-body text-white">
+								<h4 class="card-title text-center font-garamond">Viitorii studenți</h4>
+								<p class="card-text">Viitorii Studenți este un proiect educațional prin care tineriilor absolvenți de clasa a XI-a li se oferă șansa de a afla în ce constă celebra viață de student. Proiectul se desfășoară vara, după încheierea anului școlar. Mai mult de atât, vor participa la cursuri și vor afla ce fel de domenii îi atrag pentru ca mai apoi să știe la ce facultate vor vrea să meargă.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="echipa" class="galben">
+				<h2 class="py-5 text-center font-garamond font-weight-bold">Echipa noastră</h2>
+				<div class="row mx-5">
+					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
+						<div class="card mb-5">
+							<img class="card-img-top" src="img/echipa/Iulia.jpg" >
+							<div class="card-body">
+								<h4 class="card-title text-center font-garamond">Iulia Florea</h4>
+								<h5 class="card-text text-center font-garamond">Presedintele organizației</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
+						<div class="card mb-5">
+							<img class="card-img-top" src="img/echipa/Flavius.jpg" >
+							<div class="card-body">
+								<h4 class="card-title text-center font-garamond">Coman Flavius</h4>
+								<h5 class="card-text text-center font-garamond">Vicepreședintele organizației</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
+						<div class="card mb-5">
+							<img class="card-img-top" src="img/echipa/Giulia.jpg" >
+							<div class="card-body">
+								<h4 class="card-title text-center font-garamond">Gavriletea Giulia</h4>
+								<h5 class="card-text text-center font-garamond">Secretara organizației</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
+						<div class="card mb-5">
+							<img class="card-img-top" src="img/echipa/Carmen.jpg" >
+							<div class="card-body">
+								<h4 class="card-title text-center font-garamond">Carmen Colceriu</h4>
+								<h5 class="card-text text-center font-garamond">Imagine</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
+						<div class="card mb-5">
+							<img class="card-img-top" src="img/echipa/Sergiu.jpg" >
+							<div class="card-body">
+								<h4 class="card-title text-center font-garamond">Iancău Sergiu</h4>
+								<h5 class="card-text text-center font-garamond">Resurse Umane</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
+						<div class="card mb-5">
+							<img class="card-img-top" src="img/echipa/Lisa.jpg" >
+							<div class="card-body">
+								<h4 class="card-title text-center font-garamond">Gherghel Lisa</h4>
+								<h5 class="card-text text-center font-garamond">Relații externe și interne</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
+						<div class="card mb-5">
+							<img class="card-img-top" src="img/echipa/Adi.jpg" >
+							<div class="card-body">
+								<h4 class="card-title text-center font-garamond">Giurgescu Adrian</h4>
+								<h5 class="card-text text-center font-garamond">Fundraising</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 col-12">
+						<div class="card mb-5">
+							<img class="card-img-top" src="img/echipa/Valeria.jpg" >
+							<div class="card-body">
+								<h4 class="card-title text-center font-garamond">Curmei Valeria</h4>
+								<h5 class="card-text text-center font-garamond">Educație</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer id="contact" class="row turcoaz-inchis py-3 px-3">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="btn-group ">
+						<button type="button" class="btn btn-primary turcoaz-inchis buton p-3">
+							<a href="https://www.facebook.com/">
+								<img src="img/facebook1.png">
+							</a>	
+						</button>
+						<button type="button" class="btn btn-primary turcoaz-inchis buton p-3">
+							<a href="https://www.instagram.com/">
+								<img src="img/instagram1.png">
+							</a>	
+						</button>
+						<button type="button" class="btn btn-primary turcoaz-inchis buton p-3">
+							<a href="https://twitter.com/home">
+								<img src="img/twitter1.png">
+							</a>	
+						</button>
+					</div>
+				</div>
+				<div class=" col-lg-6 col-md-6 col-sm-12 col-12">
+					<div class="text-right text-light font-righteous pt-3 ">
+						<p>megacommunity@gmail.com</p>
+						<p>Copyright &copy; Florea Iulia</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
